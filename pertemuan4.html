@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profil</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      * {
+      margin: 0;
+      padding: 0;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      }
+
+      body {
+      display: flex-wrap;
+      align-items: center;
+      background-repeat:no-repeat ;
+      }
+      
+      .container{
+      position: relative;
+background: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+}  
+
+.text{
+  padding: 25px;
+  margin: 50px;   
+}
+
+.navbar {
+display: flex;
+height: 8rem;
+justify-content: space-between;
+background-color: aqua;
+align-items: center;
+position: relative;
+left: 0;
+right: 0;
+top: 0;
+z-index: 999;
+}
+
+
+.navbar .navbar-logo {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 800px;
+/* background-color: #eadcdd; */
+letter-spacing: 1px;
+font-size: 1.5rem;
+font-weight: 700;
+color: #000000;
+margin: 20px;
+position: relative;
+z-index: 99;
+}
+
+.navbar-logo a:last-child{
+color: rgb(0, 0, 0)  ;
+}
+
+.navbar .navbar-logo:hover {
+opacity: 0.5;
+}
+
+.navbar-extra{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100px;
+flex-direction: row;
+}
+
+.navbar .navbar-nav a {
+color: rgb(0, 0, 0);
+display: block;
+margin: 5px;
+padding: 7px;
+line-height: 10vh;
+font-size: 20px;
+/* text-align: center; */
+padding-left: 40%;
+line-height: 10px;
+}
+
+.navbar .navbar-nav {
+left: 0;
+backdrop-filter: blur(10px);
+justify-content: space-evenly;
+transition: 0.5s;
+}
+
+.navbar .navbar-nav.active {
+top: 0;
+left: 0;
+right: 0;
+}
+
+.navbar .navbar-nav a:hover {
+color: rgb(219, 219, 25);
+}
+
+#hamburger-menu {
+color: #000000;
+size: 10rem;
+margin-top: -20px;
+}
+.navbar .navbar-extra .ham{
+margin-top: -20px;
+}
+
+#hamburger-menu:hover {
+color: rgb(136, 136, 136);
+}
+  </style>
+  
+    
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-logo">
+        <a href="https://my.unpam.ac.id/login" class="navbar-img"><img src="lOGO.png" width="70px" height="70px" alt=""></a>
+        <a href="#home">KOMPUTER DAN MASYARAKAT</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="https://instagram.com/whhyuumuges_10?igshid=OGQ5ZDc2ODk2ZA==" class="navbar-ig"><img src="icons-75.png" width="50px" height="50px"  alt=""></a>
+        <div class="navbar-nav" style="padding-right: 3%">
+          <a href="index.html">PROFILE</a>
+          <p style="margin-top: 15px;"  ></p>
+          <a href="pertemuan1.html">PERTEMUAN 1</a>
+          <a href="pertemuan2.html">PERTEMUAN 2</a>
+          <a href="pertemuan3.html">PERTEMUAN 3</a>
+          <a href="pertemuan5.html">PERTEMUAN 5</a>
+          <a href="pertemuan6.html">PERTEMUAN 6</a>
+          <a href="pertemuan7.html">PERTEMUAN 7</a>
+          <a href="pertemuan8.html">PERTEMUAN 8</a>
+          <a href="pertemuan9.html">PERTEMUAN 9</a>
+          <a href="pertemuan10.html">PERTEMUAN 10</a>
+          <a href="pertemuan11.html">PERTEMUAN 11</a>
+          <a href="pertemuan12.html">PERTEMUAN 12</a>
+          <a href="pertemuan13.html">PERTEMUAN 13</a>
+          <a href="pertemuan14.html">PERTEMUAN 14</a>
+        </div>
+        <div>
+          <a href="#" class="ham" id="hamburger-menu"
+            ><i data-feather="menu"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+    <div class="container">
+        <section class="user">
+            <div class="text">
+              <h2><p style="text-align: center;">Pertemuan 4</p></h2>
+              <main class="module">
+                <div class="judul">
+                  <h2> <p style="text-align: center;">Komputer dan Pendidikan</p></h2>
+                  <br> <br>
+                  <img src="pert 4 pp.jpg" alt="" width="450" height="380" style="display:block; margin:auto;">
+      
+                  <p style="margin-top: 25px;"  ></p>
+               
+                        <h4>Uraian Materi</h4>
+                        <p style="margin-top: 15px;"  ></p>
+                        <ol>
+                        
+                            <h3></h3>
+                            <p class="materi">
+                              <p style="text-indent: 39px;"> Teknologi Informasi dan Komunikasi sudah digunakan didunia pendidikan 
+                              Indonesia sejak lama. Berbagai institusi pendidikan saling bersaing untuk 
+                              memanfaatkan teknologi seperti membangun jaringan internet, sistem 
+                              pembelajaran online (e-learning), infrastructure penggunaan hardware, pengadaan 
+                              software, dsb. Pendidikan yang pada awalnya bertatap muka antara siswa dengan guru 
+                              tentunya kemungkinan besar di masa yang akan datang akan beralih menjadi 
+                              bertatap layar yang kita sering sebut E-learning. Dampak E-learning terhadap 
+                              metode pendidikan masa yang akan datang yaitu pendidikan bersifat lebih luwes 
+                              (fleksibel), lebih terbuka.
+                             
+                                <p style="margin-top: 15px;"  ></p><h3>1. Perubahan Pola Pendidikan</h3>
+                                  <p class="materi">
+                                    Memasuki abad ke-21 perubahan pada dunia pendidikan cenderung 
+                                    terjadi, hal ini disebabkan oleh munculnya inovasi dunia pendidikan yang terus 
+                                    berkembang. 
+                                    B. Uno pada tahun 2010 berkata bahwa pendidikan terutama di 
+                                    Indonesia akan mengarah kepada hal berikut :
+                                    <p></p>a. Mulai dikembangkannya pendidikan secara terbuka, seperti saat ini 
+                                    berlakunya kampus merdeka dalam menjalankan proses belajar mengajar. 
+                                    <p></p>b. Sharing resource dimana adanya kegiatan yang dilakukan bersama antara 
+                                    lembaga pendidikan dengan sekelompok perpustakaan yang tergabung dalam sebuah jaringan yang memiliki tujuan mengurangi biaya 
+                                    pengembangan koleksi dan meningkatkan layanan.
+                                    <p></p>c. Penerapan teknologi multimedia terbaru untuk menggantikan teknologi 
+                                    lamanya, seperti televisi atau radio.
+                                    <p style="margin-top: 10px;"  ></p>
+                                   <p></p><p style="text-indent: 28px;">Perkembangan teknologi dan informasi telah membawa dampak signifikan dalam dunia pendidikan, termasuk metode belajar jarak jauh melalui E-learning. E-learning memungkinkan siswa dan mahasiswa untuk belajar online dengan akses mudah ke materi, penilaian, biaya kuliah, dan jadwal kuliah. Ini bertujuan untuk meningkatkan kemampuan dan keterampilan peserta didik, serta memungkinkan eksplorasi lebih dalam terhadap ilmu pengetahuan melalui pembelajaran yang kreatif.
+                                   <p style="margin-top: 15px;"  ></p><h3>2. Platform pembelajaran online</h3>
+                                   <p class="materi">
+                                    Selama pandemi Covid-19, pembelajaran daring atau E-learning menjadi solusi utama karena perkumpulan fisik tidak diperbolehkan. Dengan menggunakan internet, E-learning memungkinkan akses ke sumber ilmu dari berbagai sumber di seluruh dunia. Peserta didik dapat berinteraksi dengan pakar melalui berbagai media seperti email, mailing list, news group, dan web, serta memanfaatkan sumber daya seperti e-book dan e-library.
+                                    Berberapa aplikasi atau platform yang menyediakan metode pembelajaran secara e-learning antara lain sebagai berikut:
+                                    <p style="margin-top: 15px;"  ></p>
+                                    <p></p>a.Microsoft Office 365
+                                    <br>
+                                    <img src="pert 4 1.jpg" alt="" style="display:block; margin:auto;">
+                                    <br>
+                                    <p></p>Aplikasi yang menggunakan email dengan domain dari sekolah. Microsoft memberikan kemudahan untuk dapat mengakses secara realtime aplikasi seperti MS.Word, Ms. Excel, Power Point, dan sebagainya. 
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kelebihan :
+                                     
+                                    <p></p>1.Fitur selalu up to date dan diperbaharui tanpa biaya tambahan.
+                                    <p></p>2.Hasil kerja dapat disimpan pada cloud storage OneDrive 1TB.
+                                    <p></p>3.Dapat menyimpan data kapan saja dan dari mana saja karena mendapatkan bonus 1TB cloud        storage.
+                                    <p></p>4.Dapat fasilitas free call skype selama 60 menit setiap bulan.
+                                    <p></p>5.Dapat diakses lebih dari 1 PC.
+                                    <p></p>6.Dapat dukungan penuh dari office melalui chat, email dan telepon.
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kekurangan : 
+                                
+                                    <p></p>1.Harus berlangganan dan membayar biaya langganan sesuai ketentuan pihak microsoft office     365.
+                                    <p></p>2.Harus selalu terhubung dengan internet agar mendapatkan update fitur. 
+                                    <p style="margin-top: 15px;"  ></p>
+                                    <p></p>b. Aplikasi ruang guru
+                                    <p></p>Aplikasi Ruang Guru dikenal karena iklannya di televisi yang menawarkan berbagai layanan pendidikan online. Ini mencakup kelas virtual, video belajar berlangganan, platform ujian online, marketplace les privat, dan materi-materi pendidikan lainnya yang dapat diakses melalui web dan aplikasi.
+                                    <img src="pert 4 2.jpg" alt="" style="display:block; margin:auto;">
+                                    <p style="margin-top: 10px;"  ></p>
+                                     <p></p>   Kelebihan:
+
+                                    <p></p>1.Penampilan menarik. 
+                                    <p></p>2.Materi belajar yang cukup lengkap. 
+                                    <p></p>3.Tampilan dan kualitas video yang bagus.
+                                    <p></p>4.Pembelajaran tidak membosankan siswa karena siswa cukup menonton saja. 
+                                    <p></p>5.Tersedia rangkuman materi yang mudah dipahami. 
+                                    <p></p>6.Terdapat kuis dalam video yang dapat membantu penyerapan materi oleh siswa. 
+                                    <p></p>7.Fitur latihan soal yang dapat membantu penyerapan materi oleh siswa. 
+                                    <p></p>8.Terdapat sosial media yang mendukung interaksi antar siswa.
+                                    <p></p>9.Terdapat tutor online dan kelas belajar streaming. 
+                                    <p></p>10.Terdapat konseling gratis. 
+                                    <p style="margin-top: 10px;"  ></p>
+                                     <p></p>   Kekurangan : 
+
+                                    <p></p>1.Volume bantuan suara terlalu tinggi. 
+                                    <p></p>2.Antarmuka masih tampak terlalu ramai. 
+                                    <p></p>3.Penyampaian video terlalu childish untuk siswa SMA. 
+                                    <p></p>4.Terlalu banyak iklan promosi yang muncul. 
+                                    <p style="margin-top: 15px;"  ></p>
+                                    <p></p>c. Rumah Belajar
+                                    <p></p>Adalah solusi dari Kementrian Pendidikan dan Kebudayaan (Kemendikbud) untuk siswa yang ingin belajar secara online. Ini menyediakan sumber belajar dan fitur yang mirip dengan sekolah dalam format online, dan dapat diakses secara gratis melalui laman belajar.kemendikbud.go.id, baik dari perangkat mobile maupun PC.
+                                     <img src="pert 4 3.jpg" alt="" style="display:block; margin:auto;">
+                                    <p></p>Kelebihan : 
+                                
+                                  <p></p>1.Berbagai macam konten yang dibuat sangat menarik.
+                                  <p></p>2.Bisa digunakan secara offline maupun online.
+                                  <p></p>3.Dilengkapi dengan tujuan pembelajaran yang jelas.
+                                  <p></p>4.Sangat interaktif. 
+                                  <p></p>5.Gratis.
+                                  <p></p>6.Menampilkan nilai hasil kerja siswa sehingga siswa makin tertantang. 
+                                  <p></p>7.Terdapat penjelasan soal-soal yang dapat dipelajari siswa. 
+                                  <p></p>8.Terdapat percobaan untuk mata pelajaran matematika dan tidak hanya untuk mata pelajaran IPA.
+                                  <p></p>9.emua planet dapat diexplore pada wahana antariksa. 
+                                  <p></p>10.Diklat online menyenangkan. 
+                                  <p></p>11.Terdapat diklat di berbagai daerah yang diupdate. 
+                                  <p></p>12.Diklat untuk memperkaya keprofesional para pendidik.
+                                  <p></p>13.Guru diberi kebebasan untuk mengkreasi kelas semenarik mungkin. 
+                                  <p></p>14.Penilaian tugas, kuis dan latihan yang menarik.
+                                  <p></p>15.Aplikasi mudah dipahami.
+                                  <p style="margin-top: 10px;"  ></p>
+                                      <p></p>Kekurangan :
+                                      <p style="margin-top: 10px;"  ></p>
+                                  
+                                  <p></p>1.Materi belum semuanya tersedia. 
+                                  <p></p>2.Terbatasnya pilihan buku yang dapat diunduh. 
+                                  <p></p>3.Sulit menuliskan soal pada bank soal. 
+                                  <p></p>4.Bank soal belum terlink ke kelas maya. 
+                                  <p></p>5.Masih terbatasnya jumlah percobaan pada fitur laboratorium.
+                                  <p></p>6.Tidak semua budaya disajikan pada peta budaya.
+                                  <p></p>7.Web sangat berat pada saat membuka fitur antariksa. 
+                                  <p></p>8.Tidak semua diklat bisa diikuti, khususya diklat yang berada di luar daerah. 
+                                  <p></p>9.Sulit menulis jawaban pada kelas maya yang melibatkan equation. 
+                                  <p></p>10.Kelas maya belum terlink ke bank soal. 
+                                  
+
+
+
+
+
+
+
+
+
+
+                                  <p style="margin-top: 10px;"  ></p>
+                                    <p></p>d. Meja Kita
+                                    <p></p>Adalah aplikasi yang menyediakan fasilitas belajar online untuk siswa dari SD hingga SMA tanpa biaya. Terdapat ruang diskusi untuk interaksi siswa-guru. Materi belajar dapat diakses gratis dengan banyak catatan siswa untuk tambahan. Ini mendukung program belajar dari rumah selama pandemi COVID-19. Dialog, tugas, dan berbagi pengetahuan tetap dapat dilakukan melalui aplikasi ini.
+                                    <img src="pert 4 4.png" alt="" style="display:block; margin:auto;">
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kelebihan :
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>1.Siswa bisa bertukar catatan atau rumus dengan siswa lain yang berbeda sekolah maupun yang berbeda     daerah.
+                                    <p></p>2.Terdapat fitur diskusi antara siswa.
+                                    <p></p>3.Mendapatkan penghasilan tambahan bagi siswa yang bisa menjawab pertanyaan siswa lain atau siswa    yang membagikan catatannya ke aplikasi meja kita.
+                                    <p style="margin-top: 10px;"  ></p>
+                                       <p></p> Kekurangan :
+                                       <p style="margin-top: 10px;"  ></p>
+                                    <p></p>1.Penggunaan aplikasi meja kita mengarah ke bisnis atau bersifat komersial karena terdapat fitur yang bayar dan membayar.
+                                    <p></p>2.Rentannya menyontek jawaban siswa lain dalam mengerjakan suatu soal.
+                                    <p style="margin-top: 15px;"  ></p>
+
+
+
+                                    <p></p>e. Edmodo 
+                                    <p></p>Edmodo adalah aplikasi yang berfokus pada privasi siswa yang memiliki fungsi awal sebagai platform mikroblogging pribadi. Aplikasi ini telah berkembang untuk mendukung kegiatan proses belajar mengajar antara siswa dan guru. Di dalamnya, guru dan siswa dapat saling bertukar catatan, dokumen, dan tautan. Selain itu, guru dapat memberikan tugas, peringatan, dan acara kepada siswa dan guru lainnya.
+                                    <br> <br>
+                                    <img src="pert 4 5.jpg" alt="" style="display:block; margin:auto;">
+                                    <br>
+                                         
+                                        <p></p>Kelebihan :
+
+                                    <p></p>1.Tampilan sederhana sehingga memudahkan pengguna.
+                                   <p></p>2.Dapat membagikan file dengan format PDF, pptx, swf, html, dan sebagainya.
+                                    <p></p>3.Hadir dalam bentuk aplikasi yang dapat dibuka pada smartphone.
+                                    <p style="margin-top: 10px;"  ></p>
+                                       <p></p>Kekurangan :
+                                       <p style="margin-top: 10px;"  ></p>
+
+                                    <p></p>1.Tidak terintegrasi dengan berbagai jenis sosial media.
+                                    <p></p>2.Hanya tersedia dalam bahasa inggris.
+                                    <p></p>3.Tidak memilki fasilitas video conference.
+
+
+                                    <p></p>f. Moodle
+                                    <p></p>Moodle merupakan platform website untuk e-learning, dimana para siswa mendapatkan pembelajaran yang telah disediakan dalam kelas digital. Seorang guru bisa membuat materi pembelajaran, serta tugas kepada siswa.
+                                    <img src="pert 4 6.png" alt="" width="250px" height="200" style="display:block; margin:auto;">
+
+                                        <p></p>Kelebihan :
+
+                                   <p></p> 1.Networking dan security-nya yang dapat diatur sendiri.
+                                    <p></p>2.Ruang akses dapat dibatasi dengan jaringan yang dibuat dan dapat memiliki hak akses masing-masing.
+                                    <p></p>3.Sistem pembelajaran dapat disesuaikan oleh kebutuhan pengguna.
+                                    <p></p>4.Fitur cukup lengkap dan baik untuk proses pembelajaran jarak jauh.
+                                    <p></p>5.Proses customize yang mudah dan banyak.
+                                    <p></p>6.Terdapat fitur lesson yang sangat fleksible sehingga mempermudah guru dan dosen untuk mengajarkan sebuah materi.
+                                        
+                                       <p></p> Kekurangan :
+
+                                    <p></p>1.Harus memiliki pemahaman tentang sistem pada moodle.
+                                    <p></p>2.Perlunya tenaga ahli sebagai administrator untuk pemeliharaan aplikasi dan pembangunan sistem e-leaningnya.
+                                    <p></p>3.Membutuhkan perangakat yang cukup mahal dalam penggunaannya
+                                    <p style="margin-top: 10px;"  ></p>
+
+                                    <p></p>g. SEVIMA EdLink
+                                    <p></p>Adalah platform berbagi materi kuliah, tugas, dan file antara mahasiswa dan dosen. Dosen dapat membuat forum diskusi dan memberikan tugas kepada mahasiswa. Mahasiswa dapat berkomunikasi lewat pesan pribadi dan berbagi file dengan dosen dan mahasiswa lainnya.
+                                    <br> <br>
+                                     <img src="pert 4 7.jpg" alt="" style="display:block; margin:auto;">
+                                     <br>
+                                     <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kelebihan :
+                                
+                                    <p></p>1.Terdapat fitur reminder jadwal perkuliahan sehingga pengguna tidak ketinggalan materi.
+                                    <p></p>2.Terdapat fitur diskusi kelas.
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kekurangan :
+                                    
+                                    <p></p>1.Aplikasi sangat tergantung pada kecepatan internet.
+
+                                    <p style="margin-top: 15px;"  ></p>
+                                    <p></p>. Google Classroom
+                                    <p></p>Adalah aplikasi yang pemberitahuannya di sampaikan melalui gmail serta pemberian dan penyelesaian tugas bisa di lakukan melalui google drive.
+
+                                    <img src="pert 4 8.jpg" alt="" style="display:block; margin:auto;">
+                                    <p></p>Kelebihan :
+
+                                    <p></p>1.Mudah digunakan oleh pemula sehingga proses belajar mengajar lebih efisien.
+                                    <p></p>2.File tersimpam di dalam google drive sehingga tidak ada kekhawatiran file hilang.
+                                    <p style="margin-top: 10px;"  ></p>
+                                    <p></p>Kekurangan :
+
+                                    <p></p>1.Tampilan kurang menarik
+                                    <p></p>2.Waktu pengiriman tugas dapat diatur, sehingga masih terdapat siswa yang sengaja mengatur   waktu terlambat dalam pengumpulan tugas.
+
+
+                                    <p></p>i. Kelas kita
+                                    <p></p>Adanya fitur sosial maka memungkinkan pengguna berinteraksi dengan pengguna lain. Aplikasi ini dapat digunakan untuk membagi materi belajar formal, meningkatkan kemampuan dan keahlian dengan berbagi materi pembelajaran.
+                                    <br> <br>
+                                    <img src="pert 4 9.jpg" alt="" style="display:block; margin:auto;">
+                                    <br>
+
+                                    <p></p>Kelebihan :
+                                
+                                <p></p>1.Siswa dapat memilih kelas sesuai minat sendiri.
+                                Terdapat fitur sosial media sehingga siswa bisa berinteraksi.
+                                <p></p>2.Dapat digunakan oleh berbagai kalangan.
+                                <p></p>3.Aplikasi gratis.
+                                <P></P>4.Kelas dapat diatur menjadi kelas umum maupun kelas khusus.
+                                <P></P>5.Dapat penghasilan tambahan dari hasil kontribusi ikut membuat kelas gratis.
+                                <P></P>6.Dapat sertifikat digital.
+                                <p style="margin-top: 10px;" ></p>
+                                   <p></p> Kekurangan :
+                                
+                                <p></p>1.Penggunaan aplikasi kelas kita bisa mengarah ke bisnis atau bersifat komersial karena terdapat fitur yang bayar dan membayar.
+                                <p style="margin-top: 15px;" ></p>
+                                <p style="margin-top: 15px;"  ></p><h3>3. Dampak Metode Pembelajaran Online Terhadap Dunia Pendidikan</h3>
+                                <p class="materi">
+                                  Dalam dunia pendidikan, pemanfaatan teknologi juga berdampak positif maupun berdampak negatif bagi siswa :
+                                  <p style="margin-top: 15px;"  ></p>
+                                  <p></p>  a. Dampak Positif.
+
+                                <p></p>-E-learning cocok untuk pembelajaran informal.
+                                <p></p>-Akses ke berbagai sumber ilmu.
+                                <p></p>-Mendukung pembelajaran kelompok.
+                                <p></p>-Efisien dalam penggunaan waktu.
+                                <p></p>-Menghemat biaya pendidikan secara keseluruhan.
+                                <p></p>-Kemudahan akses materi belajar.
+                                <p></p>-Menjangkau wilayah geografis yang luas.
+                                <p></p>-Mendorong kemandirian siswa.
+                                <p></p>-Memberi kebebasan pada siswa untuk berkreasi -dalam pembelajaran.
+                                <p style="margin-top: 15px;"  ></p>
+                                   <p></p> b. Dampak Negatif.
+
+                                <p></p>-Kurangnya interaksi dan kesulitan bersosialisasi.
+                                <p></p>-Mengabaikan aspek sosial dan lebih fokus pada materi.
+                                <p></p>-Lebih mirip pelatihan daripada pendidikan.
+                                <p></p>-Tambahan beban bagi pendidik dalam mempelajari teknologi.
+                                <p></p>-Gagal bagi siswa dengan motivasi rendah.
+                                <p></p>-Ketergantungan pada koneksi internet.
+                                <P></P>-Keterampilan penggunaan internet yang diperlukan.
+                                <p></p>-Berkurangnya keterampilan komunikasi siswa.
+                                <p></p>-Kurangnya praktik dalam pembelajaran.
+
+
+
+                            </p>
+                        </li>
+                        </ol>
+                    </li>
+                    </ol>
+                </div>
+           </div>
+       </main>
+    </div>
+</section>
+       
+      </div>
+
+    
+  
+    <!-- <div id="fullpage">
+      <div class="section s1" data-anchor="home">
+        <section>
+          <div class="containe">
+            <div class="content">
+              <h1>
+                WAHYU <span> <br />
+                MUGES</span>
+              </h1>
+              <div class="border">
+                <span> </span>
+                <span> </span>
+              </div>
+              <p>I'm student of Pamulang University</p>
+            </div>
+            <div class="img">
+              <img src="WAHYU_MUGES (2).jpg"width="150px" height="150px" alt="">
+              top\
+            </div>
+          </div> -->
+         
+        </section>
+      </div>
+
+      <!-- End Hero Section -->
+
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    
+    <!-- JS end -->
+  </body>
+</html>

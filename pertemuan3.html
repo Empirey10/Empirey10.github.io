@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profil</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      * {
+      margin: 0;
+      padding: 0;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      }
+
+      body {
+      display: flex-wrap;
+      align-items: center;
+      background-repeat:no-repeat ;
+      }
+      
+      .container{
+      position: relative;
+background: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+}  
+
+.text{
+  padding: 25px;
+  margin: 50px;   
+}
+
+.navbar {
+display: flex;
+height: 8rem;
+justify-content: space-between;
+background-color: aqua;
+align-items: center;
+position: relative;
+left: 0;
+right: 0;
+top: 0;
+z-index: 999;
+}
+
+
+.navbar .navbar-logo {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 800px;
+/* background-color: #eadcdd; */
+letter-spacing: 1px;
+font-size: 1.5rem;
+font-weight: 700;
+color: #000000;
+margin: 20px;
+position: relative;
+z-index: 99;
+}
+
+.navbar-logo a:last-child{
+color: rgb(0, 0, 0)  ;
+}
+
+.navbar .navbar-logo:hover {
+opacity: 0.5;
+}
+
+.navbar-extra{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100px;
+flex-direction: row;
+}
+
+.navbar .navbar-nav a {
+color: rgb(0, 0, 0);
+display: block;
+margin: 5px;
+padding: 7px;
+line-height: 10vh;
+font-size: 20px;
+/* text-align: center; */
+padding-left: 40%;
+line-height: 10px;
+}
+
+.navbar .navbar-nav {
+left: 0;
+backdrop-filter: blur(10px);
+justify-content: space-evenly;
+transition: 0.5s;
+}
+
+.navbar .navbar-nav.active {
+top: 0;
+left: 0;
+right: 0;
+}
+
+.navbar .navbar-nav a:hover {
+color: rgb(219, 219, 25);
+}
+
+#hamburger-menu {
+color: #000000;
+size: 10rem;
+margin-top: -20px;
+}
+.navbar .navbar-extra .ham{
+margin-top: -20px;
+}
+
+#hamburger-menu:hover {
+color: rgb(136, 136, 136);
+}
+  </style>
+  
+  
+   
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-logo">
+        <a href="https://my.unpam.ac.id/login" class="navbar-img"><img src="lOGO.png" width="70px" height="70px" alt=""></a>
+        <a href="#home">KOMPUTER DAN MASYARAKAT</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="https://instagram.com/whhyuumuges_10?igshid=OGQ5ZDc2ODk2ZA==" class="navbar-ig"><img src="icons-75.png" width="50px" height="50px"  alt=""></a>
+        <div class="navbar-nav" style="padding-right: 3%">
+          <a href="index.html">PROFILE</a>
+          <p style="margin-top: 15px;"  ></p>
+          <a href="pertemuan1.html">PERTEMUAN 1</a>
+          <a href="pertemuan2.html">PERTEMUAN 2</a>
+          <a href="pertemuan4.html">PERTEMUAN 4</a>
+          <a href="pertemuan5.html">PERTEMUAN 5</a>
+          <a href="pertemuan6.html">PERTEMUAN 6</a>
+          <a href="pertemuan7.html">PERTEMUAN 7</a>
+          <a href="pertemuan8.html">PERTEMUAN 8</a>
+          <a href="pertemuan9.html">PERTEMUAN 9</a>
+          <a href="pertemuan10.html">PERTEMUAN 10</a>
+          <a href="pertemuan11.html">PERTEMUAN 11</a>
+          <a href="pertemuan12.html">PERTEMUAN 12</a>
+          <a href="pertemuan13.html">PERTEMUAN 13</a>
+          <a href="pertemuan14.html">PERTEMUAN 14</a>
+
+
+        </div>
+        <div>
+          <a href="#" class="ham" id="hamburger-menu"
+            ><i data-feather="menu"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+    <div class="container">
+        <section class="user">
+            <div class="text">
+              <h2><p style="text-align: center;">Pertemuan 3</p></h2>
+              <p style="margin-top: 15px;"  ></p>
+              <main class="module">
+                <div class="judul">
+                  <h2> <p style="text-align: center;">Masyarakat</p></h2>
+<br> <br>
+<img src="pert 3 pp.jpg" alt="" width="450"  height="400" style="display:block; margin:auto;">
+
+                  <p style="margin-top: 35px;"  ></p>
+                        <h4>Uraian Materi</h4>
+                        <p style="margin-top: 15px;"  ></p>
+                        <ol>
+                        <li class="number">
+                            <h3>Masyarakat</h3>
+                            <p class="materi">
+                             
+                              <p class="materi" style="font-size: 10px;"></p>
+                              <p style="text-indent: 35px;"> Masyarakat bisa diartikan sebagai seseorang yang harus berhubungan dengan orang lainnya di dalam
+                              suatu kumpulan atau suatu kelompok. Kehidupan masyarakat akan senantiasa berubah dan itupun tidak
+                              akan dapat dihindari. Untuk memenuhi kebutuhannya manusia memerlukan manusia lainnya, terlihat
+                              aneh apabila dalam suatu masyarakat atau kelompok yang bersifat individual.
+                              lembaga pendidikan juga harus memiliki perubahan berhubungan dengan pihak lainnya, lembaga
+                              pendidikan jikalau ingin memiliki perubahan seperti pembangunan pendirian sekola, tentunya lembaga
+                              pendidikan membutuhkan jasa tukang bangunan untuk membangun gedungnya.
+                             
+                             <p style="margin-top: 15px;"></p>Beberapa pakar mengartikan masyarakat sebagai berikut :</p>
+                             a. Menurut Max Weber, masyarakat merupakan suatu organisasi yang memiliki struktur dimana hakikatnya memiliki nilai-nilai juga harapan pada setiap individunya.
+                              <p></p>b. Menurut Selo Soemardjan, mendefinisikan masyarakat yang berkumpul atau berkelompok bersama dan akan menghasilkan suatu kebudayaan.
+                              <p></p>c. Emile Durkheim mengartikan masyarakat sebagai suatu objektif perorangan yang berada dalam suatu perkumpulan atau kelompok. Hidupnya masyarakat apabila adanya sebuah sistem sosial atau sistematis interaksi antar sesama dimana mengharuskan adanya interaksi sesama.
+                              <p style="margin-top: 15px;"></p>
+                              Manusia dikenal mahluk yang bersosial, mereka membutuhkan satu 
+                              sama lain untuk dapat hidup, tidak akan bisa menghidupi kehidupan sendiri 
+                              atau individualisme dalam suatu masyarakat, apabila ada seseorang bersifat 
+                              seperti itu maka akan ada timbal balik dari masyarakat itu sendiri, yaitu sebagai 
+                              berikut :
+                              <p></p>a. Tentunya ada contoh dimana contoh tersebut melebihi jumlah satu orang. 
+                              <p></p>b. Interaksi dari perorangan dengan isyarat.
+                              <p></p>c. Ada renggang waktu dimana fungsi tersebut untuk menentukan sifat yang 
+                              sedang berjalan.
+                              <p></p>d. Memiliki suatu tujuan yang memang sudah di rencanakan.
+                              <p style="margin-top: 15px;"></p>
+                              <li class="number">
+                                <h5>Dinamika Masyarakat</h5>
+                                <p class="materi">
+                                  Perubahan yang terjadi dengan keadaan lingkungan dinamis manusia 
+                                  harus benar-benar memiliki rasa menghargai satu dengan yang lainnya agar 
+                                  dapat hidup berkelompok dan dapat beradaptasi dengan lingkungan sekitarnya. 
+                                  Dimana manusia harus memaksa seluruh pikiran, keaktifan, berpikir kreatif, 
+                                  serta daya tahan untuk menghadapi kenyataan dalam hidup bermasyarakat. 
+                                  Contoh kecilnya yaitu apabila ada seseorang dalam kondisi yang sakit pastinya 
+                                  mencari rumah sakit untuk penanganan lanjutan, dalam kondisi lapar pastinya 
+                                  seseorang harus mencari tempat makan. Beberapa pakar berpendapat sama 
+                                  mengenai kehidupan manusia akan selalu berubah, kondisi seperti ini 
+                                  dinamakan sebagai perubahan sosial.</p>
+                                 <p style="margin-top: 15px;"></p>
+                                  
+                              <li class="number">
+                                <h5>Pemanfaatan Komputer</h5>
+                                <p class="materi">
+                                  Komputer diera masa kini sudah pasti memiliki banyak peningkatan 
+                                  kelebihan dari sekedar perhitungan matematika. Contoh kecil adanya sistem 
+                                  komputer di jasa pengiriman dengan kemampuan dapat melacak barcode
+                                  barang yang telah dikirim, data center sebagai penampung ratusan bahkan 
+                                  jutaan data dari seluruh Indonesia.
+                                  <p style="margin-top: 15px;"></p>
+                                 <P></P> a. Sebagai Alat Pengolah Data
+                                  Sejak dahulu hingga saat ini komputer sebagai alat pengolah data 
+                                  atau pemroses data, dapat dibagi menjadi 4 bagian, seperti :
+                                  <p style="margin-top: 15px;"></p> 
+                                <P></P>  1) Alat Mekanik Elektronik, dimana terdapat alat yang dapat melakukan 
+                                  secara otomatis dalam pergerakannya dilakukan oleh motor elektrik.
+                                 <p></p> 2) Peralatan Mekanik, dimana terdapat alat dalam bentuk nyata dengan 
+                                  mekanik yang digerakkan secara manual.
+                                 <P></P> 3) Peralatan manual, dimana terdapat alat yang dapat mengolah data 
+                                  sangat sederhana, dimana tenaga manusia menjadi objek utamanya.
+                                <p></p>  4) Peralatan Elektronik, terdapat komponen alat yang bekerja secara full 
+                                  elektronik.
+                                  <p style="margin-top: 15px;"></p>
+                                  b. Komputer dalam kehidupan
+                                  Tentunya komputer memiliki manfaat di dalam kehidupan seseorang 
+                                  ataupun sekelompok masyarakat. Banyak sekali kita jumpai, dimana 
+                                  komputer sangat mempermudah pekerjaan, mempercepat pekerjaan, 
+                                  diantaranya :
+                                  <p style="margin-top: 15px;"></p>
+                                <p></p>  1) Bidang Kesehatan
+                                <br>
+                                <p style="margin-top: 15px;"></p>
+                                <img src="pert 3 1a.jpg" alt="" width="400" height="300" style="display:block; margin:auto;">
+                                <br>
+                                  Manfaat pada bidang kesehatan tentunya sangat berpengaruh 
+                                  dan sangat mempermudah Perawat ataupun Dokter untuk memantau 
+                                  kesehatan pasien, contoh kecilnya yaitu melihat perkembangan bayi 
+                                  dalam perut ibu, aliran darah, detak jantung, memeriksa organ dalam 
+                                  pasien dengan sinar X dan bayak lagi lainnya
+                                  <p style="margin-top: 15px;"></p>
+                                <p></p>  2) Bidang Transportasi
+                                  Dengan adanya komputer tentunya seluruh jadwal mulai dari 
+                                  penerbangan ataupun kereta dan transportasi lainnya dapat terpantau 
+                                  secara luas, contoh kecilnya yaitu jadwal pesawat yang tertera pada 
+                                  layar atau monitor besar.Bahkan pada pesawat apabila sudah mencapai ketinggian 
+                                  tertentu komputer sudah memprogramkan. Adanya komputer, navigasi 
+                                  pesawat bisa ditentukan koordinat dan diterbangkan secara otomatis. 
+                                  Penjualan tiketnyapun sudah dilayani komputer.
+                                  <br>
+                                  <img src="pert 3 2.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                <p></p>  3) Bidang Pendidikan
+                                  Dengan adanya komputer dibidang pendidikan seperti saat ini 
+                                  akibat dampak dari wabah virus COVID-19, tentunya komputer sangatberpengaruh dan sangat berperan aktif dalam bidang pendidikan. 
+                                  Dimana yang kita tahu sekolah sekarang akibat dampak virus COVID_19 siswa tidak dapat belajar bertatap muka langsung dalam kelas tetapi
+                                  menggunakan metode e-learning atau belajar dari rumah masing
+                                  masing seperti gambar dibawah ini :
+                                  <br>
+                                  <img src="pert 3 3.jpg" alt=""style="display:block; margin:auto;">
+                                  <br>
+                                <p></p>  4) Bidang Jasa Pengiriman Barang
+                                  Seperti yang kita tahu bahwa saat ini tentunya sudah banyak 
+                                  jasa-jasa pengiriman barang seperti JNE, JNT, TIKI, Kantor Pos dan 
+                                  lain-lain. Mereka mengakses pengiriman dengan cepat dan lebih akurat 
+                                  melalui komputer. Dengan adanya komputer dan internet orang dengan 
+                                  mudahnya mengirimkan surat melalui email dan tidak perlu lagi repot-repot menunggu sampai berhari-hari, menjadikan dunia yang begitu 
+                                  besarnya mudah diakses dan dijangkau
+                                  <br> <br>
+                                  <img src="pert 3 4.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                  <p></p>5) Bidang Jasa Konstruksi
+                                  Tentunya dengan adanya komputer sangat memudahkan para 
+                                  Arsitek mendesain gambar bangunan atau rancangan konstruksi 
+                                  dengan gambar 2d atau 3d tentunya gambar dengan hasil yang 
+                                  maksimal dari segi perhitungan akurat dan tepat. Gambar konstruksi 
+                                  dengan mudah dibuat dengan menggunakan aplikasi seperti sketchup 
+                                  maupun autocad dan lain-lain
+                                  <br> <br>
+                                  <img src="pert 3 5.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                  <p></p>6) Bidang Pertahanan dan Keamanan Negara
+                                  Pada bidang pertahanan tentunya komputer sangat berperan 
+                                  aktif di berbagai segi dalam pertahanan. Dimana komputer dapat 
+                                  mengendalikan senjata-senjata ataupun peluru kendali untuk 
+                                  pengoperasiannya.
+                                  <p style="margin-top: 10px;"></p>
+                                 <p></p> 7) Bidang industri Berbagai perusahaan industri pastinya komputer yang 
+                                  memegang kendali pada mesin-mesin yang telah didesain khusus 
+                                  dengan penggunaannya.
+                                  <br> <br>
+                                  <img src="pert 3 7.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                 <p></p> 8) Bidang Jasa
+                                  Pemanfaatan komputer pada bidang jasa seperti percetakan 
+                                  koran atau majalah. Dimana semua pencetakan yang digunakan 
+                                  dengan mesin yang dimotori oleh komputer terprogram.
+                                  <br> <br>
+                                  <img src="pert 3 8.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                 <p></p> 9) Bidang Industri Perfilman
+                                  Industri perfilman tentunya banyak sekali menggunakan 
+                                  komputer dalam penyuntingan filem ataupun pengeditan film. Jelas 
+                                  dampak dengan adanya komputer dunia perfilman yang semula hanya 
+                                  bergambarkan seadanya dan berwarna hitam putih sekarang sudah benar-benar berubah dan menjadi tontonan yang sering disaksikan 
+                                  masyarakat.
+                                  <br>
+                                  <img src="pert 3 9.jpg" alt="" style="display:block; margin:auto;">
+                                  <br>
+                                  <p></p>10) Bidang Industri Rekaman
+                                  Di dalam industri rekaman tentunya komputer sangat 
+                                  berpengaruh contoh kecil seperti penyanyi yang mungkin suaranya tidak 
+                                  begitu merdu bisa diedit dan dihaluskan suaranya dengan komputer 
+                                  menjadi lebih baik dari suara aslinya. Lalu apabila ingin mencetak album 
+                                  atau suatu lagu rekaman tentunya komputer yang menangani itu 
+                                  semua.
+                                  <p style="margin-top: 10px;"></p>
+                                  <p></p>11) Bidang Olahraga
+                                  Pada bidang olahraga contoh kecilnya yaitu pada permainan 
+                                  sepak bola dimana wasit dapat melihat rekaman apabila adanya suatu 
+                                  pelanggaran yang tidak terlihat oleh mata kepala sang wasit.   
+                                  <p style="margin-top: 20px;"></p>                      
+
+
+                                  
+                                  <li class="number">
+                                    <h5>Dampak Akibat Adanya Komputer</h5>
+                                    <p class="materi">
+                                      Dengan adanya komputer pastinya memiliki dampak positif ataupun 
+                                      negatif, dimana kita harus bisa memposisikan diri terhadap adanya komputer 
+                                      yang terus berkembang pada masa kini. Dengan adanya komputer tentunya 
+                                      kita tahu apa saja yang terjadi atau dampak dengan adanya komputer, isu 
+                                      sosialpun berdatangan akibat penggunaan komputer di masyarakat. Adapun 
+                                      beberapa dampak yang ditimbulkan di kehidupan masyarakat :
+                                      <p style="margin-top: 15px;"></p>
+                                      <p></p>a. Dampak yang bersifat positif
+                                    
+                                      <p></p>1) Mendapatkan informasi yang lebih mudah dan cepat
+                                      Tentunya dengan adanya komputer kita lebih mudah mencari informasi, 
+                                      contohnya yaitu  <p style="text-indent: 17px;">dengan adanya google kita dapat mencari informasi 
+                                      yang ingin kita selidiki lebih lanjut.
+                                      <p></p>2) Berkomunikasi lebih baik
+                                      Tidak bisa dipungkiri pasti dengan adanya komputer kita menjadi lebih 
+                                      mudah berkomunikasi, contohnya penggunaan  <p style="text-indent: 21px;">e-mail, smartphone dan 
+                                      lain sebagainya.
+                                      <p></p>3) Memudahkan pekerjaan
+                                      Dengan adanya komputer yang berdampak pada pekerjaan, pasti 
+                                      komputer sudah banyak sekali membantu dalam  <p style="text-indent: 21px;">bidang pekerjaan di 
+                                      berbagai macam pekerjaan atau berbagai bidang. 
+                                      <p></p>4) Transportasi yang lebih baik
+                                      Dengan adanya komputer tentunya alat transportasi semakin mudah 
+                                      contohnya: order ojek online.
+                                      <p style="margin-top: 15px;"></p>
+                                      <p></p>b. Dampak Negatif
+                                      <p></p>1) Kurangnya sosialisasi secara langsung
+                                      Akibat perkembangan teknologi membuat orang zaman sekarang lebih 
+                                      sering berinteraksi secara online  <p style="text-indent: 17px;">contohnya penggunaan facebook, 
+                                      instagram, dan lain-lain.
+                                      <p></p>2) Data mudah dicuri
+                                      Disaat kita menyimpan data-data penting atau informasi rahasia 
+                                      tentunya komputer yang terkoneksi <p style="text-indent: 21px;">dengan internet akan dapat dicuri.
+                                      <p></p>3) Pekerjaan yang digantikan oleh mesin
+                                      Disebagian besar industri banyak yang sudah diambil alih oleh mesin, 
+                                      dimana mesin lebih mudah <p style="text-indent: 21px;">dioperasikan dan dikendalikan, tidak 
+                                      mengenal lelah 24 jam runningpun bisa, dan tanpa gaji.
+                                      <p style="margin-top: 10px;"></p>
+                                      <p></p>Consciousness (kesadaran) masyarakat tentunya sebagai solusi 
+                                      utama bagi mereka dalam mempergunakan kemajuan teknologi harus seefisien mungkin. Peranan keluarga sangatlah penting untuk menjaga satu 
+                                      dengan yang lainnya, peranan keluarga yang harus diperhatikan sebagai 
+                                      berikut:
+                                      <p></p>1) Sosialisasi, keluarga merupakan hal yang harus dapat merangkul 
+                                    sesama keluarga, contohnya kepada anak dimana peranan orang tua 
+                                    harus  <p style="text-indent: 18px;">benar-benar extra, orang tua harus dapat bersosialisasi dengan 
+                                    anak sebaik mungkin. 
+                                    <p></p>2) Skala prioritas kebutuhan teknologi, cara ini dilakukan dikarenakannya 
+                                    takut akan terus berkonsumsi pada produk-produk teknologi seperti 
+                                    <p style="text-indent: 21px;">komputer. Penentuan konsumsi pada teknologi harus diterapkan agar 
+                                    dapat memposisikan dengan benar pada suatu teknologi. Contohnya 
+                                    <p style="text-indent: 21px;">apabila pada keluarga yang sudah memiliki televisi tentunya tidak perlu 
+                                    masing-masing ruangan ada televisi yang sama, karena akan 
+                                    <p style="text-indent: 21px;">berdampak pemborosan.</p> 
+                                    <p></p>3) Peranan orang tua yang mengharuskan tau terhadap perkembangan 
+                                    teknologi. Tentunya orang tua masa kini harus menjaga dan mengontrol 
+                                    <p style="text-indent: 21px;">perilaku keluarganya, contohnya yang ditakutkan dalam penggunaan 
+                                    internet yang bebas akses.
+                                    <P></P>4) Pembimbingan orang tua kepada anak yang harus selalu diawasi dalam 
+                                    setiap  <p style="text-indent: 21px;">penggunaan teknologi yang dipergunakan, khususnya dalam 
+                                    penggunaan internet.
+                                    <p></p>5) Peranan orang tua yang harus dilakukan adalah merangkul anak atau 
+                                    meluangkan waktu untuk anak agar lebih erat tali hubungan antara 
+                                    orang  <p style="text-indent: 21px;">tua dan anak.
+                                    <p></p>6) Meningkatkan rasa kesadaran pada diri anak untuk memposisikan 
+                                    dirinya dengan benar, agar setiap anak dapat memanfaatkan teknologi 
+                                    yang  <p style="text-indent: 21px;">ada dengan benar.
+                                    <p style="margin-top: 15px;"></p>
+
+                                    
+
+                                    <li class="number">
+                                      <h5>Isu Sosial dan Masalah yang Terjadi di Masyarakat</h5>
+                                      <p class="materi">
+                                        Semua yang terjadi dalam kehidupan pasti tidak lepas dari yang 
+                                        namanya dampak, baik yang bersifat positif maupun negatif. Begitu pula isu-isu 
+                                        yang tersebar luas dikalangan masyarakat terkait dengan komputer dan 
+                                        teknologi. Walaupun Komputer dan Teknologi sudah banyak membantu 
+                                        kegiatan manusia, namun ada saja isu yang kurang berkenaan dengan 
+                                        kehidupan sosial.
+                                        <p style="margin-top: 15px;"></p>
+
+                                        Beberapa jenis isu yang diangap cukup menonjol seperti : 
+                                        <p style="margin-top: 10px;"></p>
+                                        <p></p>a. Bidang Pekerjaan
+                                        Banyak yang berkata dan mengaitkan bahwa peranan komputer dapat 
+                                        menggeser peran manusia dalam bidang pekerjaan.
+                                        <p></p>b. Bidang Kesehatan
+                                        Dengan adanya komputer dan teknologi membuat manusia jadi malas 
+                                        bergerak karena kemudahan-kemudahan yang bisa diberikan, sehingga 
+                                        dapat mengganggu kesehatan karena terlalu banyak duduk dan malas 
+                                        bergerak, belum lagi soal kesehatan mata juga dapat terganggu.
+                                        <p></p>c. Hak Kebebasan Pribadi
+                                        Komputer dan teknologi dapat memberikan kebebasan dalam memberikan 
+                                        data pribadi yang dimiliki oleh masyarakat, sehingga banyak yang ketakutan 
+                                        datanya akan disalah gunakan.
+                                        <p></p>d. Kendali yang Terpusat
+                                        Penguasa akan semakin menguasai distribusi pengelolaan data dan bisa 
+                                        sewenang-wenang terhadap kekuasaan mereka karena dapat 
+                                        mengendalikan secara terpusat semua data. 
+                                        <p></p>e. Tanggung Jawab
+                                        Apakah setiap masyarakat bertanggung jawab apabila ada data pribadi 
+                                        mereka yang tersebar luas? Apakah tanggung jawab dari masyarakat 
+                                        dengan adanya teknologi dan komputer maka semua harus beralih 
+                                        menggunakannya?
+                                        <p></p>f. Citra Diri Manusia
+                                        Apakah komputer dan teknologi dapat mempengaruhi citra diri manusia? 
+                                        Apakah citra diri manusia dapat lebih menonjol karena mereka bisa 
+                                        menggunakan komputer?
+                                        <p></p>g. Etika dan Profesionalisme
+                                        Apakah para ahli komputer memiliki etika profesi seperti layaknya dokter 
+                                        dan para ahli di bidang hukum? 
+                                        <p></p>h. Kepentingan Nasional Apakah dengan komputer maka ekonomi di Negara tersebut akan 
+                                        membantu pemerintah dalam mensejahterakan masyarakat?
+                                        <p></p>i. Kesenjangan keahlian
+                                        Apakah kesenjangan keahlian dapat menimbulkan persaingan di atara 
+                                        masyarakat ?
+
+
+
+
+
+
+
+
+
+
+                           </p>
+                        </li>
+                        </ol>
+                    </li>
+                    </ol>
+                </div>
+           </div>
+       </main>
+    </div>
+</section>
+       
+      </div>
+
+    
+  
+    <!-- <div id="fullpage">
+      <div class="section s1" data-anchor="home">
+        <section>
+          <div class="containe">
+            <div class="content">
+              <h1>
+                WAHYU <span> <br />
+                MUGES</span>
+              </h1>
+              <div class="border">
+                <span> </span>
+                <span> </span>
+              </div>
+              <p>I'm student of Pamulang University</p>
+            </div>
+            <div class="img">
+              <img src="WAHYU_MUGES (2).jpg"width="150px" height="150px" alt="">
+              top\
+            </div>
+          </div> -->
+         
+        </section>
+      </div>
+
+      <!-- End Hero Section -->
+
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    
+    <!-- JS end -->
+  </body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profil</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      * {
+      margin: 0;
+      padding: 0;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      font-family: "Poppins", sans-serif;
+      }
+
+      body {
+      display: flex-wrap;
+      align-items: center;
+      background-repeat:no-repeat ;
+      }
+      
+      .container{
+      position: relative;
+background: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+}  
+
+.text{
+  padding: 25px;
+  margin: 50px;   
+}
+
+.navbar {
+display: flex;
+height: 8rem;
+justify-content: space-between;
+background-color: aqua;
+align-items: center;
+position: relative;
+left: 0;
+right: 0;
+top: 0;
+z-index: 999;
+}
+
+
+.navbar .navbar-logo {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 800px;
+/* background-color: #eadcdd; */
+letter-spacing: 1px;
+font-size: 1.5rem;
+font-weight: 700;
+color: #000000;
+margin: 20px;
+position: relative;
+z-index: 99;
+}
+
+.navbar-logo a:last-child{
+color: rgb(0, 0, 0)  ;
+}
+
+.navbar .navbar-logo:hover {
+opacity: 0.5;
+}
+
+.navbar-extra{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100px;
+flex-direction: row;
+}
+
+.navbar .navbar-nav a {
+color: rgb(0, 0, 0);
+display: block;
+margin: 5px;
+padding: 7px;
+line-height: 10vh;
+font-size: 20px;
+/* text-align: center; */
+padding-left: 40%;
+line-height: 10px;
+}
+
+.navbar .navbar-nav {
+left: 0;
+backdrop-filter: blur(10px);
+justify-content: space-evenly;
+transition: 0.5s;
+}
+
+.navbar .navbar-nav.active {
+top: 0;
+left: 0;
+right: 0;
+}
+
+.navbar .navbar-nav a:hover {
+color: rgb(219, 219, 25);
+}
+
+#hamburger-menu {
+color: #000000;
+size: 10rem;
+margin-top: -20px;
+}
+.navbar .navbar-extra .ham{
+margin-top: -20px;
+}
+
+#hamburger-menu:hover {
+color: rgb(136, 136, 136);
+}
+  </style>
+  
+    
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-logo">
+        <a href="https://my.unpam.ac.id/login" class="navbar-img"><img src="lOGO.png" width="70px" height="70px" alt=""></a>
+        <a href="#home">KOMPUTER DAN MASYARAKAT</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="https://instagram.com/whhyuumuges_10?igshid=OGQ5ZDc2ODk2ZA==" class="navbar-ig"><img src="icons-75.png" width="50px" height="50px"  alt=""></a>
+        <div class="navbar-nav" style="padding-right: 3%">
+          <a href="index.html">PROFILE</a>
+          <p style="margin-top: 15px;"  ></p>
+          <a href="pertemuan1.html">PERTEMUAN 1</a>
+          <p style="margin-top: 20px;"  ></p>
+          <a href="pertemuan3.html">PERTEMUAN 3</a>
+          <a href="pertemuan4.html">PERTEMUAN 4</a>
+          <a href="pertemuan5.html">PERTEMUAN 5</a>
+          <a href="pertemuan6.html">PERTEMUAN 6</a>
+          <a href="pertemuan7.html">PERTEMUAN 7</a>
+          <a href="pertemuan8.html">PERTEMUAN 8</a>
+          <a href="pertemuan9.html">PERTEMUAN 9</a>
+          <a href="pertemuan10.html">PERTEMUAN 10</a>
+          <a href="#">PERTEMUAN 11</a>
+          <a href="#">PERTEMUAN 12</a>
+          <a href="#">PERTEMUAN 13</a>
+          <a href="#">PERTEMUAN 14</a>
+
+        </div>
+        <div>
+          <a href="#" class="ham" id="hamburger-menu"
+            ><i data-feather="menu"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+    <div class="container">
+        <section class="user">
+            <div class="text">
+              <h2><p style="text-align: center;">Pertemuan 2</p></h2>
+              <p style="margin-top: 15px;"  ></p>
+              <main class="module">
+                <div class="judul">
+                  <h2> <p style="text-align: center;">SEJARAH, PERKEMBANGAN DAN KRITIK TENTANG TEKNOLOGI MAJU</p></h2>
+                   <br> <br>
+                   <img src="pert 2 pp.jpg" alt="" width="460" height="400"  style="display:block; margin:auto;">
+                  <p style="margin-top: 15px;"  ></p>
+               
+                        <h4>Uraian Materi</h4>
+                        <p style="margin-top: 15px;"  ></p>
+                        <ol>
+                        <li class="number">
+                            <h3>Sejarah Awal Komputer</h3>
+                            <p class="materi">
+                              Awal mula evolusi komputer kemungkinan besar dimulai dengan 
+                              keinginan manusia untuk memahami dan memanipulasi lingkungan. Manusia 
+                              paling awal mengenali fenomena kuantitas dan menggunakan jari mereka 
+                              untuk menghitung dan bertindak atas benda-benda material di dunia mereka. 
+                              Metode sederhana seperti ini akhirnya memberi jalan pada pembuatan 
+                              perangkat proxy seperti sempoa, yang memungkinkan tindakan pada jumlah 
+                              item yang lebih tinggi, dan tablet lilin, dimana simbol yang ditekan 
+                              memungkinkan penyimpanan informasi. Seiring waktu, 
+                              perangkat baru ini meningkatkan kemampuan untuk menyimpan dan 
+                              menemukan apa yang sekarang disebut data, untuk berkomunikasi jarak jauh, 
+                              dan untuk membuat produk informasi yang dikumpulkan dari miliaran elemen 
+                              yang tak terhitung jumlahnya, semua diubah menjadi format digital yang 
+                              seragam, contoh alat hitung.
+                              <p style="margin-top: 15px;"  ></p>
+                              <p>a. Sempoa
+                                <p>Kata abacus sendiri berasal dari bahasa Yunani ἄβαξ (abax) untuk 
+                                "lempengan atau papan gambar”. Sempoa yang lebih dikenal sebagai alat 
+                                bantu dalam perhitungan. Abaskus atau sempoa dalam bahasa inggris, 
+                                orang Indonesia sendiri menggunakan alat sempoa.</p>
+                                <br>
+                                <img src="pert 2 1a.jpg" alt="" width="300px" height="" style="display:block; margin:auto;">
+                                <br>
+                                <p>b. Kalkulator Roda Numerik 1
+                                  <p>Abacus mulai menghilang dan jarang digunakan lagi sejak 
+                                  kemunculan alat tulis seperti kertas dan pensil. Hal ini sangat terasa di 
+                                  benua Eropa. Penemuan mesin komputer lainnya muncul pada sekitar 12 
+                                  abad kemudian.</p>
+                                  <br>
+                                  <img src="pert 2 1b.jpg" alt="" width="" height=""  style="display:block; margin:auto;">
+                                  <br>
+                                  <p>c. Kalkulator Roda Numerik 2
+                                    <p>Seorang matematikawan serta filsuf dari Jerman yaitu Gottfred 
+                                    Wilhem von Leibniz (1646-1716) memperbaharui pascaline dengan 
+                                    penemuannya sekitar pada tahun 1694. Leibniz membuat mesin yang bisa 
+                                    digunakan untuk mengalikan., Leibniz menyelesaikan alat tersebut dengan
+                                    bermodalkan catatan serta gambar-gambar dari pascal sebelumnya.
+                                    <p style="margin-top: 15px;"  ></p>
+                                    <br>
+                                    <img src="pert 2 1c.jpg" alt="" width="" height=""  style="display:block; margin:auto;">
+                                    <br>
+                                    </p>
+                                    <li class="number">
+                                      <p style="margin-top: 15px;"  ></p><h3>Sejarah Perkembangan Komputer</h3>
+                                        <p class="materi">
+                                         <p> a. Blaise Pascal
+                                          <p>Perkembangan komputer sejak masa Blaise.Pascal.(1623-1662) 
+                                          dimana Pascal mengembangkan kinerja komputer dari pendahulunya, 
+                                          dengan penemuannya yang membawa 8 jumlah bilangan.Perangkat yang masih menggunakan sistem seperti ini 
+                                          contohnya mobil, pengukur meteran elektronik, serta odometers pompa. 
+                                          Pada generasi sebelumnya, belum menggunakan prisnsip seperti ini.
+                                          Pada tahun 1652 barulah Pascal memulai produksi alat 
+                                          ciptaannya sebanyak 50 prototipe dimana ia dapat menjual sampai 36 
+                                          mesin. Bisnis penjualan tersebut tidak semudah yang dipikirkan 
+                                          mengingat pascaline cendrung rumit dalam pengoperasiannya.
+                                          Gottfried W.Leibniz menemukan kalkulator yang dapat bersaing 
+                                          dengan Pascaline. Pada 1672, Stepped Reckoner temuan Leibniz ini 
+                                          sama bisa melakukan proses penambahan, pengurangan, perkalian dan 
+                                          pembagian. Lalu Leibniz yang meneruskan menulis namanya kedalam 
+                                          sejarah komputer</p>
+                                          <br>
+                                          <img src="pert 2 2a.jpg" alt="" style="display:block; margin:auto;"> 
+                                          <br>
+                                         <p> b. Charles Babbage
+                                       <p>Seorang Profesor Matematika asal Inggris yaitu Charles 
+                                          Babbage atau lebih dikenal sebagai Bapak komputer adalah gelar dari 
+                                          Charles Babbage. Sebuah komputer yang dapat diprogram merupakan 
+                                          gagasan dari Charles Babbage yang menjadikannya sebagai salah satu 
+                                          tokoh penting dalam dunia komputer.
+                                          Mesin tersebut dirancang pertama kali sekitar 25.000 bagian dan 
+                                          beratnya sekitar 136.000 kg, lalu tinggi dari komputer ini mencapai 2,4 
+                                          meter. Sama pentingnya dengan perhitungan yakni dua fungsi 
+                                          tambahan yaitu penyimpanan otomatis dan pengambilan informasi 
+                                          dalam bentuk kode dan eksekusi otomatis dari urutan operasi.</p>
+                                          <br>
+                                          <img src="pert 2 2b.jpg" alt="">
+                                          <img src="pert 2 2b2.jpg" alt="">
+                                          <br>
+                                          <p style="margin-top: 15px;"  ></p>
+                                          <p>c. Gottfred Wilhem von Leibniz
+                                          <p>Komputer mengalami perkembangan yang pesat pada 1820, 
+                                          yaitu dimana kalkulator mekanik sudah bisa melakukan 4 operasi dasar 
+                                          aritmatika.</p>
+                                          <br>
+                                          <img src="pert 2 2c.png" alt=""style="display:block; margin:auto;">
+                                          <br>
+                                         <p>d. Herman Hollerith
+                                          <p>Pada tanggal 29 Februari 1860, Herman Hollerith lahir dan 
+                                          berperan dalam sejarah komputer hingga dia meninggal dunia pada 17 
+                                          November 1929. Mesin tabulator yang dibuat olehnya menggunakan 
+                                          punched card. Pada prosesnya, dikatakan memiliki kinerja yang sangat 
+                                          cepat dan dapat memproses berjuta-juta data statistik. Hollerith berfikir 
+                                          bagaimana caranya agar dapat membangun pemicu yang berasal dari 
+                                          sebuah koneksi elektrik dengan alat perhitungan yang dapat 
+                                          menyimpan segala bentuk informasi. Ide inilah menjadi dasar terbuatnya komputer era modern karena kartu ini bisa 
+                                          diurutkan maupun dijumlahkan menggunakan mesin. Selain itu data-datanya juga bisa disimpan.</p>
+                                          <br>
+                                          <img src="pert 2 2d.jpg" alt="" style="display:block; margin:auto;">
+                                          <br>
+                                          <p>e. Howard H. Aiken
+                                          <p>Dengan memanfaatkan singnal elektromagnetik, Howard dapat 
+                                          menciptakan sebuah kalkulator elektronik. Diikuti oleh munculnya 
+                                          perkembangan komputer selanjutnya yaitu Electronic Numerical 
+                                          Integrator and Computer (ENIAC). John W John Presper Eckert (1919-
+                                          1995) merupakan 2 ahli yang berhasil membuat ENIAC.</p>
+                                          <br>
+                                          <img src="pert 2 2e.jpg" alt="" style="display:block; margin:auto;">
+                                          <br>
+                                          <p>f. John William Mauchly
+                                          <p>Komputer-komputer terus dikembangkan oleh para ahli. Pada 
+                                          1940-an John menemukan mesin yang bisa menyimpan data dan 
+                                          program ke dalam memori bernama Electronic Discrete Variable 
+                                          Automatic Computer (EDVAC) dan ini merupakan awal mula 
+                                          pembuatan CPU yang diperkiran muncul sejak masa tersebut</p>
+                                          <br>
+                                          <img src="pert 2 2f.jpg" alt="" style="display:block; margin:auto;">
+                                          <br>
+                                          <li class="number">
+                                      <p style="margin-top: 15px;"  ></p><h3>Kritik Terhadap Perkembangan Teknologi Maju</h3>
+                                        <p class="materi">
+                                          Teknologi merupakan bagian dari kehidupan kita saat ini. Semua 
+                                          aktivitas hampir selalu melibatkan teknologi. Banyak manusia yang 
+                                          menganggap bahwa komputer sekedar barang elektronik biasa, padahal 
+                                          komputer termasuk ke dalam teknologi tepat guna seiring perkembangan 
+                                          zamannya dan memiliki makna yang sangat luas tergantung daripada 
+                                          kebutuhan manusia itu sendiri. Teknologi memainkan peranannya yang 
+                                          signifikan dengan merealisasikan efek pemberdayaan diri.
+                                          Namun seiring perkembangan zaman, smartphone 
+                                          kini memiliki multifungsi yang dapat memanjakan manusia, sayangnya 
+                                          banyak manusia yang merasa terlena dan lebih memilih bersama 
+                                          smartphone mereka ketimbang berinteraksi dengan sesama manusia 
+                                          secara langsung. Seperti saat berkumpul acara dengan kerabat atau 
+                                          keluarga, banyak dari mereka lebih asik dengan gadgetnya masing-masing 
+                                          daripada berbicara face to face atau bahkan ada yang menjadi anti-sosial 
+                                          atau merasa kecanduan dengan bermain game yang tersedia di gadget 
+                                          mereka.
+                                          <p style="margin-top: 15px;"  ></p>
+                                          <p>a. James D. Finn
+                                          <p>Pada tahun 1960 ia mengatakan bahwa teknologi bukan sekedar 
+                                          sebuah mesin, tapi sebagai sistem, manajemen, proses juga sebagai 
+                                          mekanisme yang dapat memantau perkembangan zaman. Dimana 
+                                          James dianggap sebagai Bapak Teknologi di bidang pendidikan.</p>  <p style="margin-top: 10px;"  ></p>
+                                          <p>b. Saettler
+                                          <p>Teknologi dalam bahasa Yunani (Techne) artinya adalah 
+                                          keahlian, seni atau kerajinan tangan. Saettler mengatakan bahwa
+                                          bangsa Yunani kuno mengakui teknologi sebagai pengetahuan yang 
+                                          dapat melakukan kegiatan khusus. Saettler mengacu pada Mitcham 
+                                          yang memiliki konsep dari penjelasan aristotuntuk menghasilkan 
+                                          kegiatan yang dapat membantu manusia dengan baik.</p>
+                                          <p style="margin-top: 10px;"  ></p>
+                                          <p>c. Lewis Mumford
+                                            
+                                          <p>Teknologi berperan sebagai sistem penindasan dari kontrol total 
+                                          yang mengubah makna menjadi tujuan, hanya mencari 
+                                          keberlangsungannya sendiri, oleh Lewis Mumford disebut sebagai 
+                                          "mesin besar". Poststrukturalis menggunakan teknologi dengan cara 
+                                          yang serupa tetapi lebih positif untuk merujuk pada metode dan 
+                                          keterampilan secara umum, seperti ketika Michel Foucault menulis 
+                                          tentang "teknologi diri" dan "teknologi kekuasaan". Teknologi juga dapat 
+                                          mengacu pada artefak material, dari perkakas batu prasejarah hingga 
+                                          pembangkit listrik tenaga nuklir. Teknologi didefinisikan sebagai 
+                                          seperangkat praktik yang digunakan manusia untuk mengubah dunia 
+                                          material, praktik yang terlibat dalam penciptaan dan penggunaan materi.
+                                          Ciri-ciri masyarakat modern yang dikemukakan oleh Talcott
+                                          Parson, sebagai berikut:</p>
+                                          <p></p>1) Prestasi, adalah masyarakatnya suka mengejar prestasi.
+                                          <p></p>2) Pengembangan diri, adalah lebih mengutamakan kepentingan diri 
+                                          sendiri.
+                                          <p></p>3) Netralitas efektif, adalah bersikap biasa saja (netral) tidak 
+                                          membanding-bandingan satu dengan yang lainnya, bahkan dapat 
+                                          menuju sikap tidak <p style="text-indent: 21px;">memperhatikan orang lain atau lingkungan.
+                                          <p></p>4) Universalisme, kondisi dimana kita menerima segala sesuatu 
+                                          dengan obyektif.
+                                          <p></p>5) Spesifitas, kondisi dimana kita berterus terang dalam menerangkan 
+                                          segala sesuatu.
+                                          <p style="margin-top: 10px;"  ></p>
+                                          <p></p>Perkembangan teknologi yang berdampak kecenderungan 
+                                          berpikir, diantaranya :
+                                          <p style="margin-top: 10px;"  ></p>
+                                          <p></p>1) Tumbuhnya perbedaan kecenderungan (reifikasi), dimana manusia 
+                                          dapat menganggap bahwa benda atau teknologi yang mereka miliki 
+                                          menjadi <p style="text-indent: 18px;">sumber utama bagi mereka dimana ia akan memiliki 
+                                          sesuatu pemikiran yang luas yang harus selalu diwujudkan secara 
+                                          kuantitatif dan secara <p style="text-indent: 18px;">lahiriah
+                                          <p></p>2) Posisi yang dimanipulasi, ini disebabkan oleh perkembangan 
+                                          teknologi yang dapat merubah suatu benda menjadi benda yang 
+                                          memiliki tingkat <p style="text-indent: 22px;">kecerdasan atau artificial intelligent untuk memenuhi 
+                                          keinginan serta kebutuhan manusia.
+                                          <p></p>3) Fragmentasi, adalah spesialisasi dalam pembagian kerja yang pada 
+                                          akhirnya dimana para pekerja diharuskan untuk bertindak 
+                                          profesionalisme <p style="text-indent: 22px;">dalam dunia kerja.
+                                          <p></p>4) Individualisasi, merupakan suatu kecenderungan yang timbul seperti 
+                                          merenggangnya hubungan antar manusia dalam kehidupan sehari-hari <p style="text-indent: 23px;">mereka. 
+                            </p>
+                        </li>
+                        </ol>
+                    </li>
+                    </ol>
+                </div>
+           </div>
+       </main>
+    </div>
+</section>
+       
+      </div>
+
+    
+  
+    <!-- <div id="fullpage">
+      <div class="section s1" data-anchor="home">
+        <section>
+          <div class="containe">
+            <div class="content">
+              <h1>
+                WAHYU <span> <br />
+                MUGES</span>
+              </h1>
+              <div class="border">
+                <span> </span>
+                <span> </span>
+              </div>
+              <p>I'm student of Pamulang University</p>
+            </div>
+            <div class="img">
+              <img src="WAHYU_MUGES (2).jpg"width="150px" height="150px" alt="">
+              top\
+            </div>
+          </div> -->
+         
+        </section>
+      </div>
+
+      <!-- End Hero Section -->
+
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    
+    <!-- JS end -->
+  </body>
+</html>

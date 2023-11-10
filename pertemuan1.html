@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profil</title> 
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        }
+
+        body {
+        display: flex-wrap;
+        align-items: center;
+        background-repeat:no-repeat ;
+        }
+        
+        .container{
+        position: relative;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}  
+
+  .text{
+    padding: 25px;
+    margin: 50px;   
+  }
+
+.navbar {
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+
+.navbar .navbar-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  /* background-color: #eadcdd; */
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 20px;
+  position: relative;
+  z-index: 99;
+}
+
+.navbar-logo a:last-child{
+  color: rgb(0, 0, 0)  ;
+}
+
+.navbar .navbar-logo:hover {
+  opacity: 0.5;
+}
+
+.navbar-extra{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  flex-direction: row;
+}
+
+.navbar .navbar-nav a {
+  color: rgb(0, 0, 0);
+  display: block;
+  margin: 5px;
+  padding: 7px;
+  line-height: 10vh;
+  font-size: 20px;
+  /* text-align: center; */
+  padding-left: 40%;
+  line-height: 10px;
+}
+
+.navbar .navbar-nav {
+  left: 0;
+  backdrop-filter: blur(10px);
+  justify-content: space-evenly;
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav.active {
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-nav a:hover {
+  color: rgb(219, 219, 25);
+}
+
+#hamburger-menu {
+  color: #000000;
+  size: 10rem;
+  margin-top: -20px;
+}
+.navbar .navbar-extra .ham{
+  margin-top: -20px;
+}
+
+#hamburger-menu:hover {
+  color: rgb(136, 136, 136);
+}
+    </style>
+    
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="navbar-logo">
+        <a href="https://my.unpam.ac.id/login" class="navbar-img"><img src="lOGO.png" width="70px" height="70px" alt=""></a>
+        <a href="#home">KOMPUTER DAN MASYARAKAT</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="https://instagram.com/whhyuumuges_10?igshid=OGQ5ZDc2ODk2ZA==" class="navbar-ig"><img src="icons-75.png" width="50px" height="50px"  alt=""></a>
+        <div class="navbar-nav" style="padding-right: 3%">
+          <a href="index.html">PROFILE</a>
+          <p style="margin-top: 15px;"  ></p>
+          <a href="pertemuan2.html">PERTEMUAN 2</a>
+          <a href="pertemuan3.html">PERTEMUAN 3</a>
+          <a href="pertemuan4.html">PERTEMUAN 4</a>
+          <a href="pertemuan5.html">PERTEMUAN 5</a>
+          <a href="pertemuan6.html">PERTEMUAN 6</a>
+          <a href="pertemuan7.html">PERTEMUAN 7</a>
+          <a href="pertemuan8.html">PERTEMUAN 8</a>
+          <a href="pertemuan9.html">PERTEMUAN 9</a>
+          <a href="pertemuan10.html">PERTEMUAN 10</a>
+          <a href="pertemuan11.html">PERTEMUAN 11</a>
+          <a href="pertemuan12.html">PERTEMUAN 12</a>
+          <a href="pertemuan13.html">PERTEMUAN 13</a>
+          <a href="pertemuan14.html">PERTEMUAN 14</a>
+        </div>
+        <div>
+          <a href="#" class="ham" id="hamburger-menu"
+            ><i data-feather="menu"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+    <div class="container">
+        <section class="user">
+            <div class="text">
+              <h2><p style="text-align: center;">Pertemuan 1</p></h2>
+              <p style="margin-top: 15px;"  ></p>
+              <main class="module">
+                <div class="judul">
+                  <h2> <p style="text-align: center;">Pengenalan Komputer</p></h2>
+                  <br> <br>
+                  <img src="pert 1 pp.jpg" alt=""  style="display:block; margin:auto;">
+
+                  <hr><br />
+                  <div class="sub-judul">
+                    <ol type="A">
+                      <li>
+                        <h4>Tujuan Pembelajaran</h4>
+                        <p class="materi" style="font-size: 20px;">
+                          Setelah mengikuti materi pada pertemuan ke-1 ini mahasiswa mampu
+                          menjelaskan jenis-jenis komputer yang digunakan sampai saat ini.
+                        </p>
+                      </li>
+                      <br />
+                    <li>
+                        <h4>Uraian Materi</h4>
+                        <ol>
+                        <li class="number">
+                            <h3>Defini Komputer</h3>
+                            <p style="margin-top: 15px;"></p>
+                            <p class="materi">
+                              <p style="text-indent: 28px;"> Komputer lebih dikenal oleh masyarakat sebagai alat teknologi atau
+                                      elektronik yang dapat menginput data, memproses data, dan menghasilkan
+                                      output berupa informasi. Kata komputer berasal dari bahasa Yunani yakni
+                                      Computare artinya adalah menghitung. Dengan perkembangan teknologi
+                                      yang semakin canggih, fungsi komputer dari tahun ke tahun selalu
+                                      berkembang, tidak hanya sebagai alat untuk menghitung saja. Komputer
+                                      sudah menjadi perlengkapan dan kebutuhan hidup karena kemajuan
+                                      teknologi yang sangat pesat perkembangannya. Berikut pengertian komputer
+                                      menurut para ahli:
+                                      <p style="margin-top: 15px;">a. Menurut Donald. H. Sanders, </p>
+                                      <p style="text-indent: 19px;">komputer adalah suatu elektronik yang
+                                      dapat dipergunakan untuk melakukan manipulasi data dengan cepat dan
+                                      tepat, komputer dibuat agar  <p style="text-indent: 19px;">secara otomatis dapat menerima dan
+                                      menyimpan data yang di input, memprosesnya, dan kemudian
+                                      menghasilkan output berdasarkan  <p style="text-indent: 19px;">instruksi-instruksi yang telah disimpan
+                                      dalam memori.
+                                      <p style="margin-top: 15px;">b. Menurut Robert. H. Blissmer, </p>
+                                      <p style="text-indent: 19px;"> ia mengatakan bahwa komputer adalah alat
+                                      elektronik yang bertugas untuk menerima masukan (input), lalu masukan
+                                      tersebut diproses dengan <p style="text-indent: 19px;">instruksi yang sudah diberikan, kemudian
+                                      komputer dapat menyimpan perintah-perintah dan menghasilkan output
+                                      dalam bentuk informasi.
+                                      <p style="margin-top: 15px;">c. Menurut Gordon. B. Davis, </p>
+                                      <p style="text-indent: 19px;">ia mengartikan bahwa komputer adalah
+                                      sebuah tips khusus untuk alat menghitung yang memiliki sifat yang
+                                      sesuai.
+                                      <p style="margin-top: 15px;">Dari beberapa pakar yang mengartikan komputer, maka dapat
+                                      disimpulkan bahwa komputer merupakan suatu alat elektronik yang dapat
+                                      mengolah suatu data dengan cara di input, proses dan menghasilkan output
+                                      berupa informasi yang disesuaikan dengan apa yang telah di input dan dapat
+                                      di simpan dalam memori. Secara umum pada dasarnya komputer memiliki
+                                      ciri-ciri sebagai berikut:</p>
+                                      a. Komputer yaitu kumpulan dari beberapa alat elektronik yang
+                                         digabungkan.
+                                      <p>b. Komputer dapat menginput, lalu memproses inputan, dan menyimpan
+                                         data.
+                                      <p>c. Komputer dapat menghasilkan informasi sesuai permintaan dari user</p>
+                             
+                                       <li class="number">
+                                        <p style="margin-top: 15px;"  ></p><h3>Generasi Komputer dari Tahun ke Tahun</h3>
+                                          <p class="materi">
+                                            Pada setiap perkembangan komputer, dapat dilihat dari bentuk,
+                                            kegunaan, tampilan dan prosedur-prosedur yang dapat dilakukan. Jika pada
+                                            komputer generasi pertama menjadi penemuan awal dari sebuah tabung
+                                            yang hampa udara sebagai alat penguat jaringan atau sinyal, lalu pada
+                                            generasi berikutnya mulai ditemukannya suatu transistor yang dapat
+                                            digunakan sebagai alat menstabilkan tegangan listrik, kemudia pada
+                                            komputer generasi ke-tiga mulai dikembangkannya teknologi IC Chip yang
+                                            berevolusi sebagai Microprocessor yang masih digunakan hingga saat ini.
+                                          </p>
+                                            <p style="margin-top: 15px;"></p><p style="font-weight: bold;">a. Generasi Pertama Komputer yaitu pada tahun (1941 - 1952)</p>
+                                            <br>
+                                            <img src="1695278796241854-0.jpg" width="350" height="250" style="display:block; margin:auto;">
+                                            <br>
+                                              <p>Pada awal masa dimana komputer ditemukan, tujuan utama dari
+                                              komputer adalah untuk membantu proses perhitungan, kemudian
+                                              komputer mulai dengan program dan diterapkan pada beberapa tujuan,
+                                              salah satunya untuk perhitungan matematis untuk tujuan perang.Pada tahun 1946 ditambahkan komponen-komponen dan akhirnya
+                                              komputer yang ada berukuran besar, memiliki berat yang luar biasa dan
+                                              pastinya memiliki harga yang mahal. Komputer tersebut adalah ENIAC
+                                              yang di dalamnya memiliki 18.800 tabung hampa udara dan memiliki
+                                              bobot 30 ton. Karena memiliki ukuran yang sangat besar dan sangat berat
+                                              sampai-sampai komputer ini memiliki ruangan kelas tersendiri.Generasi komputer pertama berdasarkan informasi yang diperolah
+                                              memiliki ciri-ciri, sebegai berikut:</p>
+                                              <p>1) Instruksi yang ditulis ditujukan khusus untuk mengerjakan suatu tugas
+                                              atau fungsi yang spesifik saja.</p>
+                                              <p>2) Bentuk komputer generasi pertama sangatlah besar dan memerlukan
+                                              ruangan yang sangat luas karena menggunakan vacuum tube (tube
+                                              vakum) dan magnet bentuk silinder (silinder magnetic)</p>
+                                              <p>3) Proses komputasi masih sangat rendah dan boros listrik.</p>
+                                              <p>4) Pada generasi komputer pertama ini hanya beberapa orang yang
+                                              dapat mengoperasikannya, dikarenakan kode mesin yang rumit.</p>
+                                              <p>5) Belum adanya bahasa pemrograman dan sistem operasi.</p>
+
+                                              <p style="margin-top: 15px;"></p><p style="font-weight: bold;">b. Generasi Kedua Komputer yaitu pada tahun (1952-1956-1958)</p>
+                                              <br>
+                                              <img src="pert1 gen b.jpg" width="350" height="250" style="display: block; margin:auto;">
+                                              <br>
+                                             <p>Pada komputer generasi kedua, bentuk dari komputer sudah memiliki
+                                              bentuk agak lebih kecil dibandingkan dengan komputer generasi pertama.
+                                              Ciri khas komputer generasi kedua adalah ditemukannya Transistor
+                                              (transfer resistor). Transistor memiliki tiga lapis bahan baku yang terdiri
+                                              dari basic, collector dan emmiter. Transistor mempunyai arti suatu alat
+                                              yang mampu menguatkan, alat yang bisa dijadikan sebagai penyambung
+                                              serta pemutus arus, alat yang dapat menstabilkan tegangan dan sebagai
+                                              alat merubah sinyal. Komputer yang sudah menggunakan teknologi ini
+                                              adalah jenis dari Super Komputer. Pada komputer generasi kedua energi
+                                              yang digunakan relatif hemat, bisa lebih diandalkan, dan kecepatannya
+                                              relatif lebih cepat dilihat dari performa dan proses komputasinya</p>
+
+                                              <p style="margin-top: 15px;"></p><p style="font-weight: bold;">c. Generasi Ketiga Komputer yaitu pada tahun (1958 – 1970)</p>
+                                              <br>
+                                              <img src="pert1 gen c.jpg" width="350" height="250" style="display: block; margin:auto;">
+                                              <br>
+                                              <p>Pada komputer generasi ketiga ini, secuil silicium adalah salah
+                                              satu penemuan pada masa ini yang memiliki bentuk ukuran hanya
+                                              beberapa milimeter, yang lebih dikenal sebagai IC-Chip (Integrated
+                                              Circuit). IC-Chip mulai digunakan dari komputer di generasi ketiga. IC di
+                                              dalam sejarah komputer memiliki peranan sangat besar. IC dapat
+                                              meminimalkan panas yang dihasilkan oleh komputer, mampu
+                                              mengintegrasikan komponen ke dalam satu chip, yang membuat ukuran
+                                              sebuah komputer semakin kecil dan cenderung tidak cepat panas.
+                                              komputer generasi ketiga ini sistem komputer yang digunakan mulai
+                                              mampu untuk menjalankan beberapa tugas sekaligus atau multi tasking.
+                                              Cincin magnetic yang memagnetisasi secara berlawanan atau
+                                              satu arah, dengan men-sinyalkan kondisi sebagai "ON" atau "OFF" lalu
+                                              diimplementasikan menjadi konsep 0 dan 1 bilangan biner.</p>
+
+                                              <p style="margin-top: 15px;"></p><p style="font-weight: bold;">d. Generasi Keempat Komputer yaitu pada tahun (1970 – 1980)</p>
+                                              <br>
+                                              <img src="pert1 gen d.jpg" width="350" height="250" style="display: block; margin:auto;">
+                                              <br>
+                                              <p> keempat adalah
+                                              Microprocessor dimana terdapat pemadatan ribuan IC pada sebuah Chip.
+                                              Pada generasi ini harga yang ditawarkan semakin murah dikarenakan
+                                              ukuran yang akan semakin mengecil dan memiliki kemampuan yang
+                                              semakin meningkat. Microprocessor adalah awal mulanya kelahiran
+                                              komputer personal. Intel Corp pada tahun 1971, dengan Microprocessor
+                                              pertamanya serie 4004.
+                                              Apple I Komputer yang dikembangkan oleh Steve Wozniak dan
+                                              Steve Jobs merupakan contoh dari komputer generasi keempat yang
+                                              memasukan sebuah microprocessor ke dalam circuit board komputer.
+                                              Kemudian muncul TRS Model 80 dengan jenis processor Motorola 68000
+                                              dan Zilog Z-80 yang menggunakan 64Kb RAM standard</p>
+
+                                              <p style="margin-top: 15px;"></p><p style="font-weight: bold;">e. Generasi Kelima-Sekarang (1980 – saat ini)</p>
+                                              <br>
+                                              <img src="pert1 gen e.jpg" width="350" height="250" style="display: block; margin:auto;">
+                                              <br>
+                                              <p>Munculnya generasi kelima yaitu dengan datangannya: LSI (Large
+                                              Scale Integration) dimana ini dilakukan dengan cara pemadatan ribuan
+                                              Microprocessor yang dimasukan pada sebuah Microprocesor. Munculnya
+                                              semiconductor dan microprocessor juga merupakan ciri khas pada
+                                              generasi ini. Dimana perusahaan seperti Intel Corporation, Motorola, Zilog
+                                              dan lainnya sedang membuat Microprocessor</p>
+
+                                              <p style="margin-top: 15px;"></p><p style="font-weight: bold;">f. Generasi Keenam Komputer (Masa Depan)</p>
+                                              <br>
+                                              <img src="pert1 gen f.jpg" width="350" height="250" style="display: block; margin:auto;">
+                                              <br>
+                                              <p>Perkembangan komputer pada era generasi ini disebut sebagai
+                                              komputer masa depan. Para penggiat teknologi atau para peneliti banyak
+                                              memiliki ide hingga memiliki impian-impian begitu pula dengan para
+                                              pengguna yang ingin melihat atau membuat komputer lebih canggih untuk
+                                              masa depan guna dapat membantu manusia dalam mengerjakan aktifitas
+                                              serta kegiatan sehari-hari. Contohnya seperti penggunaan robot yang
+                                              dapat berperan serta dalam kegiatan manusia. Ciri-ciri
+                                              komputer generasi keenam secara umum yaitu memiliki bentuk yang lebih
+                                              beragam, tingkat kecerdasaannya menyerupai manusia, lebih canggih,
+                                              dan mampu melakukan proses prediksi yang akan terjadi dan masih
+                                              banyak kecanggihan lainnya dimana kecanggihan tersebut lebih mutakhir
+                                              dari teknologi-teknologi saat ini.</p> 
+                              
+
+                                              <li class="number">
+                                                <p style="margin-top: 15px;"  ></p><h3>Penggolongan Komputer</h3>
+                                                  <p class="materi">
+                                                    Komputer dapat digolongkan berdasarkan:
+                                                    <p style="margin-top: 15px;"></p><p style="font-weight: bold;">a. Processor</p>
+                                                    Jenis komputer berdasarkan prosesornya digolongkan menjadi tiga, yaitu
+                                                    Mainframe, Minicomputer dan Personal Computer (PC). Pada
+                                                    penggolongan ini dengan berjalannya waktu mungkin akan semakin
+                                                    meredup dan bahkan bisa hilang, dikarenakan pada komputer jenis
+                                                    Mainframe dan Minicomputer mengalami perkembangan yang jauh
+                                                    dibawah Personal Computer (PC), sementara Personal Computer (PC)
+                                                    terus-menerus berkembang dengan pesatnya. (Rosdiana, 2016).
+                                                    <p>1) Mainframe
+                                                    Mainframe merupakan komputer yang memiliki prosesor dengan
+                                                    kemampuan yang sangat besar, dikarenakan komputer jenis ini
+                                                    <p style="text-indent: 18px;">ditunjukan untuk banyak pemakai. Komputer mainframe memiliki CPU
+                                                    disatu mesin, memiliki perangkat penyimpanan, komunikasi disatu
+                                                    mesin <p style="text-indent: 18px;">tersendiri yang dihubungkan dengan banyak terminal yang
+                                                    terdiri dari monitor dan keyboard saja.</p>
+                                                   <p>2) Minicomputer
+                                                    Minicomputer merupakan sisi mini dari komputer mainframe. Jika
+                                                    pada mainframe dapat memiliki terminal yang jumlahnya ribuan <p style="text-indent: 21px;">maka
+                                                    mini hanya dapat sampai puluhan atau ratusan</p> 
+                                                    <p>3) Personal Computer (PC)
+                                                    Personal Computer (PC) merupakan komputer diperuntukan hanya
+                                                    satu pemakai dengan satu pemakai program <p style="text-indent: 21px;">aplikasi. Perangkatnya
+                                                    yang simpel dan dapat diringkas ke dalam satu mesin saja.</p>
+
+                                                    <p style="margin-top: 15px;"></p><p style="font-weight: bold;">b. Jenis Komputer Berdasarkan Bentuk dan Ukuran Fisik</p>
+                                                    Komputer tak hanya dapat digolongkan dari kemampuannya saja
+                                                    tapi juga dari bentuk dan ukuran, berikut jenis komputer berdasarkan
+                                                    bentuk dan ukurannya:
+                                                    <p>1) Tower
+                                                    Dikarenakan ukuran yang relatif besar biasanya jenis ini menaruhnya
+                                                    disamping ataupun dibawah meja.</p>
+                                                    <p>2) Desktop
+                                                    Desktop yaitu komputer yang sedikit lebih kecil ukurannya dari Tower,
+                                                    pada jenis komputer ini tentunya banyak digunakan karena  <p style="text-indent: 21px;">harganya
+                                                    relatif lebih terjangkau jika dibandingkan dengan bentuk dan ukuran
+                                                    yang lain.</p>
+                                                    <p>3) Portable
+                                                    Komputer jenis Portable memiliki ukuran lebih kecil dari jenis komputer
+                                                    desktop, hal ini bisa terjadi dikarenakan adanya bagian yang  <p style="text-indent: 20px;">dirangkai
+                                                    menjadi satu kotak saja, sehingga lebih mudah untuk dibawa.</p>
+                                                    <p>4) Notebook
+                                                    Komputer jenis ini besarnya hanya seukuran buku saja. Ukuran
+                                                    komputer Notebook hanya sebesar kertas kuarto, yaitu 8½ x 11 inch,
+                                                    <p style="text-indent: 22px;">tebalnya berkisar 1 inch sampai 1½ inch dan memiliki berat antara 4
+                                                    kg sampai 6 kg.</p>
+                                                    <p>5) Subnotebook
+                                                    Jenis komputer ini memiliki ukuran yang lebih kecil jika dibandingkan
+                                                    dengan komputer Notebook dikarenakan adanya komponen  <p style="text-indent: 22px;">pada
+                                                    perangkat yang tidak dipasang, contohnya seperti Diskdrive.</p>
+                                                    <p>6) Palmtop
+                                                    Palmtop atau disebut juga komputer dalam genggaman, hal ini karena
+                                                    ukuran komputer tersebut yang sangat kecil. Komputer ini sering
+                                                    <p style="text-indent: 20px;">disebut juga dengan handheld komputer.</p>    
+                                                    
+                                                    <p style="margin-top: 15px;"></p><p style="font-weight: bold;">c. Komputer Berdasarkan Jenis Data yang Diolah</p>
+                                                    Komputer berdasarkan dari jenis data yang diolah dibedakan
+                                                    menjadi 3 bagian yaitu:
+                                                    <p></p>1) Komputer Analog
+                                                    Data kualitatif biasanya diolah menggunakan komputer jenis ini,
+                                                    dimana komputer dapat bekerja secara berkelanjutan dan  <p style="text-indent: 17px;">paralel, dan
+                                                    tidak perlu adanya bahasa perantara. Contoh pada komputer jenis ini
+                                                    digunakan di rumah sakit untuk pengukur suhu, voltase pada</p>  <p style="text-indent: 17px;">listrik,
+                                                    kecepatan suara dan lainnya.</p> 
+                                                    <p></p>2) Komputer Digital
+                                                    Data kuantitatif biasanya diolah menggunakan jenis komputer ini,
+                                                    contohnya seperti angka, huruf, kombinasi angka dan huruf,  <p style="text-indent: 21px;">karakterkarakter khusus dan tentunya membutuhkan bahasa perantara.
+                                                    Contohnya komputer PC, dan lain-lain.</p>
+                                                    <p></p>3) Komputer Hybrid
+                                                    Komputer jenis ini adalah gabungan dari komputer analog dengan
+                                                    komputer digital. Di dalam aplikasi yang khusus dibutuhan  <p style="text-indent: 21px;"> suatu
+                                                    komputer yang mampu menyelesaikan permasalah lebih cepat dari
+                                                    komputer analog dan lebih tepat dari komputer digital. Contohnya</p>
+                                                    <p style="text-indent: 21px;"> Facsimile.
+                                                  
+                                                  
+                                                    
+                                                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </p>
+                        </li>
+                        </ol>
+                    </li>
+                    </ol>
+                </div>
+           </div>
+       </main>
+    </div>
+</section>
+       
+      </div>
+
+    
+  
+    <!-- <div id="fullpage">
+      <div class="section s1" data-anchor="home">
+        <section>
+          <div class="containe">
+            <div class="content">
+              <h1>
+                WAHYU <span> <br />
+                MUGES</span>
+              </h1>
+              <div class="border">
+                <span> </span>
+                <span> </span>
+              </div>
+              <p>I'm student of Pamulang University</p>
+            </div>
+            <div class="img">
+              <img src="WAHYU_MUGES (2).jpg"width="150px" height="150px" alt="">
+              top\
+            </div>
+          </div> -->
+         
+        </section>
+      </div>
+
+      <!-- End Hero Section -->
+
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+    
+    <!-- JS end -->
+  </body>
+</html>
